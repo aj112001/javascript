@@ -9,9 +9,12 @@ let convertTonum = Number(score)
 
 let logIn = 1
 let blogIn = Boolean(logIn)
-console.log(typeof blogIn)
-console.log(blogIn)
+// console.log(typeof blogIn)
+// console.log(blogIn)
 
 // 1 => true      0 => false
 
 // "" => false    "ashu" => true
+
+console.log(1+2+"6"+9+7)
+// console.log(+true);  ==> 1
