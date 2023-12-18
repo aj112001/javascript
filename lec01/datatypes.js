@@ -27,3 +27,25 @@ const myFunction = function(){
 }
 
 console.log(typeof cars)
+
+// TYPES OF MEMORY
+
+//       STACK  (PRIMITIVE)    ,          HEAP (NON-PRIMITIVE)
+//            get copy                         refernence
+let name1 = "ashish"
+let name2 = name1 
+ name2 = "manoj"
+
+ console.log(name1);
+console.log(name2);
+
+
+let user1 = {
+        name: " ashu" ,
+        age : 23
+}
+
+user2 = user1
+user2.age = 45 
+
+console.log(user1.age);
